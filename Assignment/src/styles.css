@@ -1,0 +1,62 @@
+.App {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+  }
+  .App .car-img {
+    width: 400px;
+    height: auto;
+    margin: 20px 0px;
+  }
+  
+  .App .sub-header {
+    display: flex;
+  }
+  .grt-img {
+    width: 18px;
+    margin: 0px 9px;
+    position: relative;
+    top: 4px;
+  }
+  
+  .car-footer {
+    display: flex;
+    justify-content: center;
+  }
+  .action-btn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    column-gap: 20px;
+  }
+  .action-btn > img {
+    width: 40px;
+  }
+  .action-btn > .backward-img {
+    transform: rotate(180deg);
+  }
+  .page-no {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  .dots-ctn {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+  }
+  .dots {
+    height: 15px;
+    width: 15px;
+    background: white;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  .active {
+    height: 15px;
+    width: 15px;
+    background: black;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+  
